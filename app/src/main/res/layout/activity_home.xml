@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/homecheckconnection"
+    tools:context="com.org.tkru.pestlibrary.HomeActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/red"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="6dp"
+            android:background="@color/white">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_launcher"
+                android:layout_height="100dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="6dp"
+            android:background="@color/red"
+            android:layout_height="40dp">
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/search_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/searchshape"
+                android:fitsSystemWindows="true"
+                app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/content_home" />
+    <com.org.tkru.pestlibrary.model.FooterBarLayout
+        android:layout_width="match_parent"
+        android:id="@+id/create_team_proceed"
+        android:layout_height="30dp"
+        android:background="@color/white"
+        android:layout_gravity="bottom">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/add_opponent"
+                android:layout_width="wrap_content"
+                android:text="@string/copyright"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="14dp"
+                android:textColor="@color/dark_black"
+                android:textStyle="normal"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </com.org.tkru.pestlibrary.model.FooterBarLayout>
+</android.support.design.widget.CoordinatorLayout>

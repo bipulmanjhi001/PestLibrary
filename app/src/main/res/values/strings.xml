@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PestLibrary</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="copyright">Copyright@Pest Library,2017.All Rights Reserved.</string>
+    <string name="title_activity_pest_details">PestDetailsActivity</string>
+    <string name="title_activity_pest_sub_details">PestSubDetailsActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_search_details">SearchDetailsActivity</string>
+    <string name="title_activity_search_details_info">SearchDetailsInfoActivity</string>
+
+</resources>
